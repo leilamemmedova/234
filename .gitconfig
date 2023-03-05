@@ -1,0 +1,10 @@
+[user]
+	email = 116263067+leilanazarli@users.noreply.github.com
+	name = Leila Nazarli
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesFile = ~/.gitignore
